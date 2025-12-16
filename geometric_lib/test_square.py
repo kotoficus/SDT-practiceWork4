@@ -8,7 +8,7 @@ class SquareTestCases(unittest.TestCase):
    """
 
 
-   # Тесты для функции area(r)
+   # Тесты для функции area(a)
    def test_area_normal_values(self):
        self.assertEquals(square.area(2), 4)
        self.assertEquals(square.area(5), 25)
@@ -27,7 +27,7 @@ class SquareTestCases(unittest.TestCase):
        self.assertEquals(square.area(1007), 1014049)
 
 
-   # Тесты для функции perimeter(r)
+   # Тесты для функции perimeter(a)
    def test_perimeter_normal_values(self):
        self.assertEquals(square.perimeter(2), 8)
        self.assertEquals(square.perimeter(5), 20)
@@ -44,3 +44,4 @@ class SquareTestCases(unittest.TestCase):
        self.assertEquals(square.perimeter(42), 168)
        self.assertEquals(square.perimeter(103), 412)
        self.assertEquals(square.perimeter(1007), 4028)
+
