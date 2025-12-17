@@ -36,14 +36,14 @@ jobs:
       # Run unit tests for circle module
       - name: Run circle tests
         run: |
-          python -m pytest test_circle.py -v
+          python -m pytest geometric_lib/test_circle.py -v
       
       # Run unit tests for square module
       - name: Run square tests
         run: |
-          python -m pytest test_square.py -v
+          python -m pytest geometric_lib/test_square.py -v
       
       # Or run all tests together
       - name: Run all tests
         run: |
-          python -m pytest test_*.py -v
+          python -m pytest geometric_lib/test_*.py -v
