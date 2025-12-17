@@ -13,3 +13,5 @@ def perimeter(r):
     Принимает радиус окружности, возвращает её периметр.
     """
     return 2 * math.pi * r
+
+# checking
