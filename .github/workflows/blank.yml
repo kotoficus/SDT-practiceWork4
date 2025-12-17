@@ -43,8 +43,3 @@ jobs:
       - name: Run square tests
         run: |
           python -m pytest geometric_lib/test_square.py -v
-      
-      # Or run all tests together
-      - name: Run all tests
-        run: |
-          python -m pytest geometric_lib/test_*.py -v
